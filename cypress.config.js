@@ -1,7 +1,7 @@
 /* eslint-disable */
-const { defineConfig } = require("cypress");
+import { defineConfig } from "cypress";
 
-module.exports = defineConfig({
+export default defineConfig({
   projectId: 'wd81pv',
   e2e: {
     specPattern: "cypress/e2e/**/*.{cy,spec}.{js,jsx,ts,tsx}",
