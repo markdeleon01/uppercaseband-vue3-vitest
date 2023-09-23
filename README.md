@@ -1,6 +1,6 @@
 # uppercaseband-vue3-vitest
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/markdeleon01/uppercaseband-vue3-vitest/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/markdeleon01/uppercaseband-vue3-vitest/tree/master)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/markdeleon01/uppercaseband-vue3-vitest/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/markdeleon01/uppercaseband-vue3-vitest/tree/main)
 
 As a matter of interest and passion for JavaScript and music in general, I created a Vue3 web application for my band UPPERCASE.
 
