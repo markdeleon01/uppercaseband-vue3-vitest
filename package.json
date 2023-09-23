@@ -11,7 +11,6 @@
     "test:unit": "vitest --run --passWithNoTests --coverage --environment jsdom --root src/",
     "test:e2e": "start-server-and-test preview :4173 'cypress run --e2e --record --key 3b8176e8-394c-4a66-bbb6-197f47929d90'",
     "test:e2e:dev": "start-server-and-test 'vite dev --port 4173' :4173 'cypress open --e2e'",
-    "coverage": "vitest run --coverage --environment jsdom",
     "install:xvfb": "sudo apt-get update && sudo apt-get install libgtk2.0-0 && sudo apt-get install libgtk-3-0 && sudo apt-get install libgbm-dev && sudo apt-get install libnotify-dev && sudo apt-get install libgconf-2-4 && sudo apt-get install libnss3 && sudo apt-get install libxss1 && sudo apt-get install libasound2 && sudo apt-get install libxtst6 && sudo apt-get install xauth && sudo apt-get install xvfb",
     "make-badges": "istanbul-badges-readme",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
