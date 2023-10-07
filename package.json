@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "npm run test:unit",
-    "test:unit": "vitest --run --passWithNoTests --coverage --environment jsdom --root src/",
+    "test:unit": "vitest --run --passWithNoTests --environment jsdom --root src/",
     "test:e2e": "start-server-and-test preview :4173 'cypress run --e2e --record --key bdb18446-87ba-435b-91a1-45c4ce059f7e'",
     "test:e2e:dev": "start-server-and-test 'vite dev --port 4173' :4173 'cypress open --e2e'",
     "coverage": "vitest run --coverage --environment jsdom",
