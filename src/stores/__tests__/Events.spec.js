@@ -10,5 +10,9 @@ describe('Events Store', () => {
   it('retrieves the number of events', () => {
     const store = useEventsStore()
     expect(store.events.length).toBe(0)
+
+    store.fetchEvents().then(() => {
+      expect(store.events.length).toBe(6)
+    })
   })
 })

@@ -11,5 +11,9 @@ describe('Members Store', () => {
   it('retrieves the number of members', () => {
     const store = useMembersStore()
     expect(store.members.length).toBe(0)
+
+    store.fetchMembers().then(() => {
+      expect(store.members.length).toBe(4)
+    })
   })
 })

@@ -10,5 +10,9 @@ describe('Discography Store', () => {
   it('retrieves the number of releases', () => {
     const store = useDiscographyStore()
     expect(store.releases.length).toBe(0)
+
+    store.fetchReleases().then(() => {
+      expect(store.releases.length).toBe(6)
+    })
   })
 })
