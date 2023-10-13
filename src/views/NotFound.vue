@@ -1,5 +1,5 @@
 <template>
-  <div class="404">
+  <div class="not-found">
     <h1>Oops!</h1>
     <h3>
       The {{ resource ? resource : 'page' }} you're looking for is not here.
