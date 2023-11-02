@@ -68,7 +68,7 @@ jobs:
       - run:
           name: Front-End e2e Tests
           command: |
-            npm run test:e2e
+            npm run cy:e2e
       # make badges for Istanbul coverage
       - run:
           name: Istanbul coverage badges
