@@ -1,7 +1,5 @@
 <template>
   <div class="home">
-    <h1>U P P E R C A S E</h1>
-    <hr width="50%" align="center" />
     <h2>Welcome to the Official Website!</h2>
     <p class="band-logo">
       <img src="/UPPERCASE-logo.png" />

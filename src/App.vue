@@ -6,7 +6,12 @@ import { RouterView } from 'vue-router'
 <template>
   <div id="app">
     <NavBar />
-    <RouterView />
+    <div id="page-header">
+      <h1>U P P E R C A S E</h1>
+    </div>
+    <div id="page-section">
+      <RouterView />
+    </div>
   </div>
 </template>
 
@@ -18,6 +23,12 @@ import { RouterView } from 'vue-router'
   text-align: center;
   color: #2c3e50;
   display: grid;
+}
+
+#page-header {
+  border-bottom: 1px;
+  border-bottom-color: grey;
+  border-bottom-style: solid;
 }
 
 a {
