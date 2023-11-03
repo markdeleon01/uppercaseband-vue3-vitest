@@ -44,6 +44,7 @@ describe('About.vue', () => {
     store.fetchMembers().then(() => {
       expect(store.fetchMembers).toHaveBeenCalledTimes(1)
       expect(store.fetchMembers).toHaveBeenLastCalledWith()
+      expect(store.members).to.have.lengthOf(4)
 
       // since stubbing was set to false, the action will execute its code
       expect(wrapper.findAll('.member-item')).to.have.lengthOf(4)

@@ -32,6 +32,8 @@ describe('Events.vue', () => {
     store.fetchEvents().then(() => {
       expect(store.fetchEvents).toHaveBeenCalledTimes(1)
       expect(store.fetchEvents).toHaveBeenLastCalledWith()
+      expect(store.events).to.have.lengthOf(6)
+
       expect(wrapper.findAll('.event-item')).to.have.lengthOf(6)
       expect(wrapper.findAll('.event-item > a')).to.have.lengthOf(6)
     })

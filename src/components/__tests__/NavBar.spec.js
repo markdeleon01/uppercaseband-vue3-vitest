@@ -13,5 +13,9 @@ describe('NavBar.vue', () => {
     })
 
     expect(wrapper.find('#nav').exists()).to.equal(true)
+    expect(wrapper.find('[data-testid="home"]').exists()).to.equal(true)
+    expect(wrapper.find('[data-testid="about"]').exists()).to.equal(true)
+    expect(wrapper.find('[data-testid="discography"]').exists()).to.equal(true)
+    expect(wrapper.find('[data-testid="events"]').exists()).to.equal(true)
   })
 })
