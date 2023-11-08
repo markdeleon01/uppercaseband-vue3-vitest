@@ -61,7 +61,7 @@ jobs:
             npm run test
       # Test coverage
       - run:
-          name: Istanbul coverage
+          name: Test coverage
           command: |
             npm run coverage
       # run front-end e2e tests
