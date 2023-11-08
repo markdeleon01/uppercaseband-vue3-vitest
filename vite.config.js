@@ -16,7 +16,7 @@ export default defineConfig({
     environment: 'jsdom',
     coverage: {
       reporter: ['json-summary', 'html'],
-      provider: 'istanbul'
+      provider: 'v8'
     }
   }
 })
