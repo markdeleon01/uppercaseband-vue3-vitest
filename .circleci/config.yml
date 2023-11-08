@@ -59,9 +59,9 @@ jobs:
           name: Front-End Unit Tests
           command: |
             npm run test
-      # Istanbul coverage
+      # Test coverage
       - run:
-          name: Istanbul coverage
+          name: Test coverage
           command: |
             npm run coverage
       # run front-end e2e tests
@@ -69,9 +69,9 @@ jobs:
           name: Front-End e2e Tests
           command: |
             npm run test:e2e
-      # make badges for Istanbul coverage
+      # make badges for test coverage
       - run:
-          name: Istanbul coverage badges
+          name: Test coverage badges
           command: |
             npm run make-badges:ci
 
